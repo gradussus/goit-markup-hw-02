@@ -26,11 +26,13 @@ body{
 }
 .main-nav a{
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-black);
     text-decoration: none;
+}
+.main-nav .current-page{
+    color: var(--accent-color);
 }
 .main-nav a:hover,
 .main-nav a:focus {
@@ -46,7 +48,6 @@ body{
     color:var(--primary-grey);
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 
@@ -91,4 +92,29 @@ body{
     line-height: 1.2;
     text-align: center;
     color: var(--primary-black);
+}
+.sorting button{
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--primary-black);
+    background: #F5F4FA;
+}
+.examples h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-black);
+}
+.examples a{
+    text-decoration: none;
+}
+.examples p{
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primary-grey);
 }
