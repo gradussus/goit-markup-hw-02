@@ -1,5 +1,94 @@
 :root{
-    --primary-color: #2196F3;
+    --accent-color: #2196F3;
     --primary-black: #212121;
     --primary-grey: #757575;
+    --white: #ffffff;
+    --background-black: #2F303A
+}
+body{
+    font-family: roboto, sans-serif;
+    color: var(--primary-grey);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.logo{
+    font-family: Raleway, sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+}
+.web-in-logo{
+    color: var(--accent-color)
+    ;
+}
+.main-nav a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-black);
+    text-decoration: none;
+}
+.main-nav a:hover,
+.main-nav a:focus {
+    color: var(--accent-color);
+}
+.hero{
+    background-color: var(--background-black)
+}
+.hero-title{
+    color: var(--white)
+}
+.contacts-header a{
+    color:var(--primary-grey);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+.contacts-header a:hover,
+.contacts-header a:focus,
+.contacts-footer .main-adress:hover,
+.contacts-footer .main-adress:focus,
+.contacts-footer a:hover,
+.contacts-footer a:focus
+
+{
+    color: var(--accent-color);
+}
+.contacts-footer a {
+    text-decoration: none;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contacts-footer .main-adress{
+    color: var(--white);
+}
+
+.benefits h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-black);
+}
+.what-are-we-doing h2,
+.our-team h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--primary-black);
+}
+.our-team h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--primary-black);
 }
