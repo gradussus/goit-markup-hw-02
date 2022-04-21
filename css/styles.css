@@ -3,17 +3,38 @@
     --primary-black: #212121;
     --primary-grey: #757575;
     --white: #ffffff;
-    --background-black: #2F303A
+    --background-black: #2F303A;
+    --background-grey: #F5F4FA
 }
 body{
-    font-family: roboto, sans-serif;
+    font-family: roboto, -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;;
     color: var(--primary-grey);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 .logo{
-    font-family: Raleway, sans-serif;
+    font-family: Raleway, -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;;
     color: #000000;
     font-weight: 700;
     font-size: 26px;
@@ -58,7 +79,6 @@ body{
 .contacts-footer .main-adress:focus,
 .contacts-footer a:hover,
 .contacts-footer a:focus
-
 {
     color: var(--accent-color);
 }
@@ -102,6 +122,12 @@ body{
     text-align: center;
     color: var(--primary-black);
     background: #F5F4FA;
+}
+.sorting button:hover,
+.sorting button:focus{
+    background-color: var(--accent-color);
+    color:var(--white)
+
 }
 .examples h2{
     font-weight: 700;
